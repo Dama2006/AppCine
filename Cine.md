@@ -59,14 +59,14 @@ Estos requerimientos aseguran la calidad del sistema y la experiencia del usuari
 
 ## Clasificación de Requerimientos
 ###  Esenciales:
-Gestión de cartelera: Actualización y consulta de horarios y detalles de películas.
-Compra de boletos: Selección de asientos y procesamiento de pagos.
-Deseables:
-Personalización de colores y estilos para una experiencia más atractiva.
-Integración de servicios de dulcería con pedidos anticipados.
-Opcionales:
-Soporte para múltiples idiomas, adaptándose a audiencias internacionales.
-Opciones avanzadas de personalización, como temas oscuros o claros.
+* Gestión de cartelera: Actualización y consulta de horarios y detalles de películas.
+* Compra de boletos: Selección de asientos y procesamiento de pagos.
+### Deseables:
+* Personalización de colores y estilos para una experiencia más atractiva.
+* Integración de servicios de dulcería con pedidos anticipados.
+### Opcionales:
+* Soporte para múltiples idiomas, adaptándose a audiencias internacionales.
+* Opciones avanzadas de personalización, como temas oscuros o claros.
 ## Modelo
 ![Modelo Django](https://github.com/user-attachments/assets/cb19e7de-4371-4487-a710-e55b3315b35e)
 
