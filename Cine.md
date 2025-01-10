@@ -19,22 +19,35 @@ Ejemplo: Según un estudio reciente, el 65% de los usuarios abandonan una aplica
 La creación de AppCine responde a la necesidad de consolidar todos los servicios asociados a los cines en una única aplicación fácil de usar. Con un diseño centrado en el usuario, esta herramienta busca solucionar los puntos débiles de las aplicaciones actuales y mejorar la satisfacción general de los clientes.
 
 ## Análisis de Requerimientos
-Requerimientos Funcionales:
+Requerimientos Funcionales de la aplicacion de cine a continuación...
 
 ## Gestión de cartelera: 
 Consultar horarios, géneros y sinopsis de películas.
-## Compra de boletos: Selección de asientos y procesamiento de pagos.
-Personalización: Cambiar colores de la interfaz según las preferencias del usuario.
-Servicios de dulcería: Visualización y compra de productos.
-Soporte para multimedia: Inclusión de imágenes promocionales y trailers de películas.
-Requerimientos No Funcionales:
+## Compra de boletos: 
+Selección de asientos y procesamiento de pagos.
+## Personalización: 
+Cambiar colores de la interfaz según las preferencias del usuario.
+## Servicios de dulcería: 
+Visualización y compra de productos.
+## Soporte para multimedia: 
+Inclusión de imágenes promocionales y trailers de películas.
 
-Interfaz de usuario: Intuitiva, con diseño responsivo para dispositivos móviles y web.
-Tiempo de respuesta: Carga de páginas en menos de 2 segundos.
-Escalabilidad: Capacidad para manejar 5000 usuarios concurrentes sin degradar el rendimiento.
-Seguridad: Protección de datos sensibles mediante encriptación SSL y autenticación de usuarios.
-Clasificación de Requerimientos:
+## Requerimientos No Funcionales:
 
-Esenciales: Funciones relacionadas con la cartelera y la compra de boletos.
-Deseables: Personalización de colores y soporte para dulcería.
-Opcionales: Soporte para múltiples idiomas en futuras versiones.
+## Interfaz de usuario: 
+Intuitiva, con diseño responsivo para dispositivos móviles y web.
+## Tiempo de respuesta: 
+Carga de páginas en menos de 2 segundos.
+## Escalabilidad: 
+Capacidad para manejar 5000 usuarios concurrentes sin degradar el rendimiento.
+## Seguridad: 
+Protección de datos sensibles mediante encriptación SSL y autenticación de usuarios.
+
+## Clasificación de Requerimientos:
+
+## Esenciales: 
+Funciones relacionadas con la cartelera y la compra de boletos.
+## Deseables: 
+Personalización de colores y soporte para dulcería.
+## Opcionales: 
+Soporte para múltiples idiomas en futuras versiones.
