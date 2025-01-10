@@ -4,9 +4,9 @@
 Propósito:
 La aplicación AppCine es una solución innovadora diseñada para optimizar y modernizar la experiencia de los usuarios en el ámbito cinematográfico. Su objetivo principal es proporcionar una plataforma intuitiva y eficiente para consultar carteleras, gestionar boletos y acceder a servicios complementarios como la dulcería, todo desde una interfaz atractiva y funcional.
 
-Objetivos:
+## Objetivos:
 
-Facilitar el acceso rápido y sencillo a la información de películas en estreno y horarios.
+* Facilitar el acceso rápido y sencillo a la información de películas en estreno y horarios.
 Ofrecer una experiencia personalizada mediante colores personalizados y un diseño amigable.
 Incorporar funcionalidades adicionales que mejoren la experiencia del usuario, como la gestión de pedidos de dulcería.
 Proveer una estructura bien organizada que permita la escalabilidad y el mantenimiento del sistema.
