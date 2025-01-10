@@ -19,39 +19,54 @@ Ejemplo: Según un estudio reciente, el 65% de los usuarios abandonan una aplica
 La creación de AppCine responde a la necesidad de consolidar todos los servicios asociados a los cines en una única aplicación fácil de usar. Con un diseño centrado en el usuario, esta herramienta busca solucionar los puntos débiles de las aplicaciones actuales y mejorar la satisfacción general de los clientes.
 
 ## Análisis de Requerimientos
-Requerimientos Funcionales de la aplicacion de cine a continuación...
+* Requerimientos Funcionales
+Estos requerimientos definen las características y funcionalidades principales que la aplicación debe ofrecer:
 
-## Gestión de cartelera: 
-Consultar horarios, géneros y sinopsis de películas.
-## Compra de boletos: 
-Selección de asientos y procesamiento de pagos.
-## Personalización: 
-Cambiar colores de la interfaz según las preferencias del usuario.
-## Servicios de dulcería: 
-Visualización y compra de productos.
-## Soporte para multimedia: 
-Inclusión de imágenes promocionales y trailers de películas.
+## Gestión de cartelera:
+* Los usuarios deben poder consultar horarios, géneros y sinopsis de películas.
+* La cartelera debe estar organizada de forma intuitiva, permitiendo filtrar por fecha, género o clasificación.
+* Las actualizaciones en los horarios deben reflejarse automáticamente en la aplicación.
+## Compra de boletos:
+* Selección de asientos interactiva en un mapa visual de la sala.
+* Proceso de compra sencillo y seguro, con opciones de pago integradas (tarjetas de crédito, débito, y billeteras digitales).
+* Confirmación de la compra mediante un correo electrónico con el resumen del boleto y un código QR para el ingreso.
+## Personalización:
+* Permitir a los usuarios cambiar los colores de la interfaz según sus preferencias.
+* Guardar configuraciones de personalización en el perfil del usuario para mantener la experiencia consistente.
+## Servicios de dulcería:
+* Mostrar el menú de productos de la dulcería con imágenes y precios.
+* Permitir la compra anticipada de productos para recogida en el cine o entrega directa en la sala.
+* Integrar promociones y descuentos especiales para usuarios registrados.
+## Soporte para multimedia:
+* Mostrar imágenes promocionales, posters y trailers de las películas.
+* Optimizar el tiempo de carga de multimedia para garantizar una experiencia fluida.
 
-## Requerimientos No Funcionales:
+## Requerimientos No Funcionales
+Estos requerimientos aseguran la calidad del sistema y la experiencia del usuario.
 
-## Interfaz de usuario: 
-Intuitiva, con diseño responsivo para dispositivos móviles y web.
-## Tiempo de respuesta: 
-Carga de páginas en menos de 2 segundos.
-## Escalabilidad: 
-Capacidad para manejar 5000 usuarios concurrentes sin degradar el rendimiento.
-## Seguridad: 
-Protección de datos sensibles mediante encriptación SSL y autenticación de usuarios.
+## Interfaz de usuario:
+* Diseñada para ser intuitiva y atractiva, con un enfoque en la facilidad de uso tanto para usuarios nuevos como recurrentes.
+* Diseño responsivo para adaptarse a dispositivos móviles, tabletas y navegadores de escritorio.
+## Tiempo de respuesta:
+* Todas las páginas y acciones principales deben cargar en menos de 2 segundos en condiciones de red normales.
+* Optimización de consultas a la base de datos y uso de caché para mejorar el rendimiento.
+## Escalabilidad:
+* El sistema debe ser capaz de manejar un crecimiento en la base de usuarios sin comprometer el rendimiento.
+* Preparado para integrarse con nuevas funcionalidades, como eventos especiales o reservas de salas privadas.
+## Seguridad:
+* Implementar protocolos de encriptación SSL para proteger datos sensibles, como información personal y de pago.
+* Autenticación segura de usuarios, incluyendo opciones como autenticación de dos factores (2FA) en futuras versiones.
 
-## Clasificación de Requerimientos:
-
-## Esenciales: 
-Funciones relacionadas con la cartelera y la compra de boletos.
-## Deseables: 
-Personalización de colores y soporte para dulcería.
-## Opcionales: 
-Soporte para múltiples idiomas en futuras versiones.
-
+## Clasificación de Requerimientos
+# Esenciales:
+Gestión de cartelera: Actualización y consulta de horarios y detalles de películas.
+Compra de boletos: Selección de asientos y procesamiento de pagos.
+Deseables:
+Personalización de colores y estilos para una experiencia más atractiva.
+Integración de servicios de dulcería con pedidos anticipados.
+Opcionales:
+Soporte para múltiples idiomas, adaptándose a audiencias internacionales.
+Opciones avanzadas de personalización, como temas oscuros o claros.
 ## Modelo
 ![Modelo Django](https://github.com/user-attachments/assets/cb19e7de-4371-4487-a710-e55b3315b35e)
 
