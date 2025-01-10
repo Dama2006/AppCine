@@ -58,7 +58,7 @@ Estos requerimientos aseguran la calidad del sistema y la experiencia del usuari
 * Autenticación segura de usuarios, incluyendo opciones como autenticación de dos factores (2FA) en futuras versiones.
 
 ## Clasificación de Requerimientos
-# Esenciales:
+###  Esenciales:
 Gestión de cartelera: Actualización y consulta de horarios y detalles de películas.
 Compra de boletos: Selección de asientos y procesamiento de pagos.
 Deseables:
