@@ -52,7 +52,7 @@ Personalización de colores y soporte para dulcería.
 ## Opcionales: 
 Soporte para múltiples idiomas en futuras versiones.
 
-##Modelo
+## Modelo
 ![Modelo Django](https://github.com/user-attachments/assets/cb19e7de-4371-4487-a710-e55b3315b35e)
 
 ## Desarrollo de proyecto
