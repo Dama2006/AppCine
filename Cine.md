@@ -61,10 +61,10 @@ Estos requerimientos aseguran la calidad del sistema y la experiencia del usuari
 ####  Esenciales:
 * Gestión de cartelera: Actualización y consulta de horarios y detalles de películas.
 * Compra de boletos: Selección de asientos y procesamiento de pagos.
-### Deseables:
+#### Deseables:
 * Personalización de colores y estilos para una experiencia más atractiva.
 * Integración de servicios de dulcería con pedidos anticipados.
-### Opcionales:
+#### Opcionales:
 * Soporte para múltiples idiomas, adaptándose a audiencias internacionales.
 * Opciones avanzadas de personalización, como temas oscuros o claros.
 ## Modelo
