@@ -68,6 +68,7 @@ Estos requerimientos aseguran la calidad del sistema y la experiencia del usuari
 * Soporte para múltiples idiomas, adaptándose a audiencias internacionales.
 * Opciones avanzadas de personalización, como temas oscuros o claros.
 ## Modelo
-![Modelo Django](https://github.com/user-attachments/assets/cb19e7de-4371-4487-a710-e55b3315b35e)
+![ModeloDjango](https://github.com/user-attachments/assets/2d812e89-a074-459f-aa9a-b6b3a3cd6036)
 
-## Desarrollo de proyecto
+
+
