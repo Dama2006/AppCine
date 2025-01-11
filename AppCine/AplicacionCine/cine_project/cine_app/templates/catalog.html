@@ -1,0 +1,33 @@
+<!-- cine_app/templates/catalogo.html -->
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1>Catálogo de Películas</h1>
+
+    <div class="peliculas">
+        {% for pelicula in peliculas %}
+            <div class="pelicula">
+                <h2>{{ pelicula.titulo }} ({{ pelicula.anio }})</h2>
+                <p>{{ pelicula.descripcion }}</p>
+
+                <h3>Reseñas:</h3>
+                <div class="resenas">
+                    {% for resena in pelicula.resenas.all %}
+                        <div class="resena">
+                            <p><strong>{{ resena.autor }}:</strong> {{ resena.texto }}</p>
+                        </div>
+                    {% empty %}
+                        <p>No hay reseñas aún.</p>
+                    {% endfor %}
+                </div>
+
+                <form method="POST" action="{% url 'agregar_resena' pelicula.id %}">
+                    {% csrf_token %}
+                    <textarea name="texto" placeholder="Escribe tu reseña..." required></textarea>
+                    <input type="text" name="autor" placeholder="Tu nombre" required>
+                    <button type="submit">Agregar Reseña</button>
+                </form>
+            </div>
+        {% endfor %}
+    </div>
+{% endblock %}
